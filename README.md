@@ -1,29 +1,22 @@
-# Franklyn Solutions – Website Revision 1
+# Franklyn Solutions – Revision 2
 
-This is a static starter site prepared for GitHub + Cloudflare Pages deployment.
+This is a static website bundle prepared for GitHub + Cloudflare Pages deployment.
 
 ## Files
-- `index.html` – page structure
-- `styles.css` – styling
-- `script.js` – mobile nav + reveal effects
-- `favicon.svg` – simple placeholder favicon
-- `assets/` – local images used in this first draft
+- `index.html`
+- `styles.css`
+- `script.js`
+- `assets/` for images and logo files
 
-## Suggested next revisions
-1. Replace the temporary favicon with your real Franklyn Solutions logo mark.
-2. Swap in final hero and service images from your Facebook page or brand assets.
-3. Add a lead form, Calendly button, or quote request flow.
-4. Add a dedicated projects/case studies section.
-5. Add service detail pages later if you want a multi-page version.
-
-## GitHub + Cloudflare Pages deployment
-1. Create or use a GitHub repo.
-2. Upload these files to the repo root.
-3. In Cloudflare Pages, create a project from that repo.
-4. Framework preset: **None**.
-5. Build command: leave blank.
-6. Output directory: `/`
-7. Deploy.
+## Deploy
+1. Create or open your GitHub repo.
+2. Upload the contents of this folder.
+3. Push to your main branch.
+4. In Cloudflare Pages, connect the repo.
+5. Framework preset: **None**.
+6. Build command: leave blank.
+7. Output directory: `/`.
 
 ## Notes
-This first pass is intentionally built as a clean, editable static site so content and layout can be changed quickly.
+- This revision uses a mix of branded graphics and real project photos.
+- It is easy to keep editing directly with ChatGPT and repackaging for future revisions.
