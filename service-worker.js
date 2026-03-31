@@ -1,6 +1,7 @@
 const CACHE_NAME = 'mcs-pwa-v1';
 const URLS_TO_CACHE = [
   './',
+  '/',
   './index.html',
   './about.html',
   './details.html',
@@ -34,7 +35,7 @@ self.addEventListener('fetch', event => {
         const responseClone = response.clone();
         caches.open(CACHE_NAME).then(cache => cache.put(event.request, responseClone));
         return response;
-      }).catch(() => caches.match('./index.html'));
+      }).catch(() => caches.match('/') || caches.match('./index.html'));
     })
   );
 });
