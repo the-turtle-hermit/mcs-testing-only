@@ -1,0 +1,105 @@
+<svg width="900" height="900" viewBox="0 0 900 900" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Guest Speakers Coming Soon</title>
+  <desc id="desc">A square website-ready graphic with a speaker silhouette placeholder in a clean orange, black, gray, and white style.</desc>
+
+  <defs>
+    <linearGradient id="headlineGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#ececec"/>
+    </linearGradient>
+
+    <linearGradient id="bannerGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ff8c1a"/>
+      <stop offset="100%" stop-color="#e56d00"/>
+    </linearGradient>
+
+    <linearGradient id="panelGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1f1f1f"/>
+      <stop offset="100%" stop-color="#141414"/>
+    </linearGradient>
+
+    <filter id="shadowSoft" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="12" stdDeviation="14" flood-color="#000000" flood-opacity="0.24"/>
+    </filter>
+
+    <filter id="shadowLight" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#000000" flood-opacity="0.14"/>
+    </filter>
+  </defs>
+
+  <!-- Transparent background -->
+
+  <!-- Main card -->
+  <g filter="url(#shadowSoft)">
+    <rect x="95" y="90" width="710" height="720" rx="42" fill="#121212"/>
+    <rect x="110" y="105" width="680" height="690" rx="34" fill="url(#panelGrad)"/>
+  </g>
+
+  <!-- Accent line -->
+  <rect x="180" y="145" width="540" height="10" rx="5" fill="#ff7a00"/>
+
+  <!-- Speaker placeholder panel -->
+  <g filter="url(#shadowLight)">
+    <rect x="285" y="190" width="330" height="220" rx="28" fill="#232323" stroke="#3b3b3b" stroke-width="2"/>
+    <circle cx="450" cy="255" r="44" fill="#bdbdbd"/>
+    <path d="M360 375
+             C372 322, 405 300, 450 300
+             C495 300, 528 322, 540 375
+             Z" fill="#bdbdbd"/>
+    <rect x="352" y="193" width="196" height="10" rx="5" fill="#ff7a00" opacity="0.95"/>
+    <text x="450" y="395"
+          text-anchor="middle"
+          font-family="Arial, Helvetica, sans-serif"
+          font-size="22"
+          font-weight="700"
+          fill="#ffcf9d">
+      Speaker Image Placeholder
+    </text>
+  </g>
+
+  <!-- Headline -->
+  <g filter="url(#shadowLight)">
+    <text x="450" y="500"
+          text-anchor="middle"
+          font-family="Arial, Helvetica, sans-serif"
+          font-size="80"
+          font-weight="800"
+          fill="url(#headlineGrad)">
+      Guest Speakers
+    </text>
+    <rect x="245" y="520" width="410" height="8" rx="4" fill="#ff7a00"/>
+  </g>
+
+  <!-- Banner -->
+  <g filter="url(#shadowLight)">
+    <rect x="220" y="560" width="460" height="114" rx="24" fill="url(#bannerGrad)"/>
+    <rect x="233" y="573" width="434" height="88" rx="18" fill="none" stroke="#ffb15c" stroke-width="2" opacity="0.75"/>
+    <text x="450" y="635"
+          text-anchor="middle"
+          font-family="Arial, Helvetica, sans-serif"
+          font-size="52"
+          font-weight="800"
+          fill="#ffffff">
+      Coming Soon
+    </text>
+  </g>
+
+  <!-- Supporting copy -->
+  <text x="450" y="730"
+        text-anchor="middle"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="26"
+        font-weight="600"
+        fill="#d7d7d7">
+    Speaker announcements are being finalized
+  </text>
+
+  <text x="450" y="767"
+        text-anchor="middle"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="22"
+        font-weight="500"
+        fill="#9a9a9a">
+    Check back soon for event updates
+  </text>
+</svg>
